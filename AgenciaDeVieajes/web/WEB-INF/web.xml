@@ -4,9 +4,25 @@
         <servlet-name>IniciarSesion</servlet-name>
         <servlet-class>controlador.IniciarSesion</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ProcesarAerolinea</servlet-name>
+        <servlet-class>controlador.ProcesarAerolinea</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ProcesarHotel</servlet-name>
+        <servlet-class>controlador.ProcesarHotel</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>IniciarSesion</servlet-name>
         <url-pattern>/iniciarSesion</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ProcesarAerolinea</servlet-name>
+        <url-pattern>/procesarAerolinea</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ProcesarHotel</servlet-name>
+        <url-pattern>/procesarHotel</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

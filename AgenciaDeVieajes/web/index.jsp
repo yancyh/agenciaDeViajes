@@ -37,7 +37,8 @@
         <table border='0'>
             <tr><td style="font-size:15;font-weight:bold;color:darkgoldenrod">Menú</td></tr>
             <tr><td><a href="cliente.jsp">Mantenimiento de Clientes</a></td></tr>
-            <tr><td>Mantenimiento de reservaciones</td></tr>
+            <tr><td><a href="aerolinea.jsp">Mantenimiento de Aerolineas</a></td></tr>
+            <tr><td><a href="hotel.jsp">Mantenimiento de Hoteles</a></td></tr>
         </table>
     </body>
 </html>
